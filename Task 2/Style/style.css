@@ -1,0 +1,30 @@
+.Full{
+	margin: auto;
+	border: 5px solid black;
+	width: 900px;
+	height: 900px;
+	position: relative;
+}
+.Red{
+	height: 600px;
+	width: 600px;
+	background-color: red;
+	position: absolute;
+}
+.Green{
+	height: 600px;
+	width: 600px;
+	background-color: rgb(13, 221, 13);
+	position: relative;
+	margin: auto;
+    margin-top: 150px;
+    z-index: 3;
+}
+.Blue{
+	height: 600px;
+	width: 600px;
+	position: absolute;
+	bottom: 0;
+    right: 0;
+    background-color: blue;
+}
